@@ -1,0 +1,22 @@
+<template>
+       <div> <!-- Navigation-->
+        <nav class="navbar bg-color navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <img class="navbar-brand" src="~/assets/img/ProRate.png" href="index.vue" width="8%" height="8%">
+                <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                   <nuxt-link class="nav-link" target="_blank" to="/">Home</nuxt-link>
+                    <nuxt-link class="nav-link" target="_blank" to="#about">About</nuxt-link>
+                    <nuxt-link class="nav-link" target="_blank" to="Reviews">Reviews</nuxt-link>
+                    <nuxt-link class="nav-link" target="_blank" to="doctorsProfile">Doctor profile</nuxt-link>
+                    <nuxt-link class="nav-link" target="_blank" to="register">Register</nuxt-link>
+                    <nuxt-link class="nav-link" target="_blank" to="signDoctor">Sign as Doctor</nuxt-link>
+                </div>
+                </div>
+                <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+</div>
+</template>
+

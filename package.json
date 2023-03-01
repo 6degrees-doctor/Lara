@@ -1,0 +1,17 @@
+{
+  "name": "test_lara",
+  "version": "1.0.0",
+  "description": "My magnificent Nuxt.js project",
+  "author": "lara",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "nuxt": "^2.0.0"
+  }
+}
