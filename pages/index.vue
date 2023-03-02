@@ -15,7 +15,7 @@
     <div class="row ">
   <div class="card ">
     <div class="card-body">
-      <h2 class="fw-bold fs-sm-3">Find A Doctor</h2>
+      <h2 class="fw-bold fs-sm-3">Find A Doctor - by 6degrees</h2>
       
     <div class="col-sm-7 col-lg-12 ">
       <input class="form-control " list="datalistOptions" id="exampleDataList" 
