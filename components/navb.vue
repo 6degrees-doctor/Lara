@@ -2,7 +2,7 @@
        <div> <!-- Navigation-->
         <nav class="navbar bg-color navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <img class="navbar-brand" src="~/assets/img/ProRate.png" href="index.vue" width="8%" height="8%">
+                <a href="/"><img class="navbar-brand" src="~/assets/img/ProRate.png" width="18%" height="18%"></a>
                 <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">

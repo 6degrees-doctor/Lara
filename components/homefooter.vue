@@ -19,9 +19,9 @@
           <div class="col">
             <h5>Quick Links</h5>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Reviews</a></li>
+              <li><nuxt-link class="nav-link" target="_blank" to="/">Home</nuxt-link></li>
+              <li><nuxt-link class="nav-link" target="_blank" to="#about">About</nuxt-link></li>
+              <li><nuxt-link class="nav-link" target="_blank" to="Reviews">Reviews</nuxt-link></li>
             </ul>
           </div>
           <div class="col">

@@ -204,10 +204,7 @@ position: relative;
 }
 /*** END btn style ***/
 .rectangle-search{
-position: absolute;
-width: 1124px;
-height: 330;
-bottom: 22px;
+top: 720px;
 -ms-transform: translateX(-10%) translateY(-10%);
 -webkit-transform: translate(-50%,-50%);
 transform: translate(0%,-70%);

@@ -106,14 +106,21 @@
                         <h4 class="modal-title" id="exampleModalLabel">Write your comment as Anonymous</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body d-felx justify-content-center">
-                       <div class="col-md-4  gap-3 d-flex justify-content-evenly">
+                    <div class="modal-body">
+                       <div class="col-md-4">
+                        <label for="exampleInputEmail1" class="form-label"><h5>Title *</h5></label>
+                    <input type="text" class="form-control" placeholder="Write your title ..."  id="exampleInputTitle" required >
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPMessage" class="form-label"><h5>Tell us more about your visit *</h5></label>
+                        <textarea class="form-control" placeholder="Write your message ..."  aria-label="With textarea" 
+                        required></textarea>
 
 
                     </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn fw-bold btn-color btn-md">Save changes</button>
+                        <button type="button" class="btn  btn-color btn-md">Send Message</button>
                     </div>
                     </div>
                 </div>

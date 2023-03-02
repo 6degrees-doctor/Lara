@@ -18,14 +18,41 @@
             <input type="password" id="form1Example23" placeholder="Enter Your Password" class="form-control form-control" />
           </div>
           
+
+
           <div class="d-grid">
-            <!-- Vertically centered modal -->
-            <a class="btn btn-color btn-lg" href="#" role="button">Login</a>
-            
-            <h5 class="fw-bold text-dark text-center my-5">Or Login With:</h5>
+                 <!-- Button trigger modal -->
+                    <a class="btn btn-color fw-bold btn-lg" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    role="button">Login</a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title fw-bold" id="exampleModalLabel">Authentcation Code Sent:</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                       <p>Enter the 4-digits code sent to your e-mail</p>
+                       <div class="col-md-5  gap-3 d-flex justify-content-evenly">
+                        <input type="text" class="form-control px-3" id="inputCode">
+                        <input type="text" class="form-control px-3" id="inputCode">
+                        <input type="text" class="form-control px-3" id="inputCode">
+                        <input type="text" class="form-control px-3" id="inputCode">
+                    </div>
+                    </div>
+
+                    <div class="modal-footer d-flex justify-content-center">
+                      <button type="button"  class="btn btn-color px-4 fw-bold btn-lg">Verify</button> 
+                    </div>
+                    </div>
+                </div>
+                </div>
+            <h5 class="text-dark text-center my-5">Or Login With:</h5>
           <div class="bg-color d-flex justify-content-around py-3">
-           <img src="~/assets/img/google.png" href="#" style="height: 5rem;" alt="">
-           <img src="~/assets/img/linkedin.png" href="#" style="height: 5rem;"  alt="">
+            <a  href="https://www.google.com"><img src="~/assets/img/google.png"  style="height: 5rem;" alt=""></a>
+            <a  href="#"><img src="~/assets/img/linkedin.png"  style="height: 5rem;" alt=""></a>
           </div>
           </div>
           

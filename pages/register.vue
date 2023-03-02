@@ -24,7 +24,7 @@
               <input type="password" id="form1Example23" placeholder="Confirm Your Password" class="form-control form-control" />
             </div>
             <div class="d-grid">
-              <a class="btn btn-color btn-lg" href="#" role="button">Login</a>
+              <a class="btn btn-color btn-lg" href="#" role="button">Signup</a>
             </div>
                       
             <h5 class="fw-bold text-dark text-center my-5">Or Login With:</h5>
