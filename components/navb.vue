@@ -7,7 +7,7 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
                    <nuxt-link class="nav-link" target="_blank" to="/">Home</nuxt-link>
-                    <nuxt-link class="nav-link" target="_blank" to="#about">About</nuxt-link>
+                    <nuxt-link class="nav-link" to="#about">About</nuxt-link>
                     <nuxt-link class="nav-link" target="_blank" to="Reviews">Reviews</nuxt-link>
                     <nuxt-link class="nav-link" target="_blank" to="doctorsProfile">Doctor profile</nuxt-link>
                     <nuxt-link class="nav-link" target="_blank" to="register">Register</nuxt-link>
