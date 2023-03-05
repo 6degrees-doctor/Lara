@@ -109,7 +109,7 @@
                     <div class="modal-body">
                        <div class="col-md-4">
                         <label for="exampleInputEmail1" class="form-label"><h5>Title *</h5></label>
-                    <input type="text" class="form-control" placeholder="Write your title ..."  id="exampleInputTitle" required >
+                    <input type="text" class="form-control" placeholder="Write your title ..."  id="exampleInputTitle2" required >
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPMessage" class="form-label"><h5>Tell us more about your visit *</h5></label>
