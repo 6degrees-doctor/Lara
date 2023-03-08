@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/strapi": "^1.8.1",
+    "@nuxtjs/strapi": "^0.3.4",
     "bootstrap": "^5.2.3",
     "nuxt": "^2.0.0"
   }

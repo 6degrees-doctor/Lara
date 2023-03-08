@@ -1,22 +1,13 @@
-# test_lara
+# ProRate site
+ProRate is a site for the users to write reviews on each doctor in the hospital, eather as anonymous users or as a pre-registered users.And for the doctors they could see the pending reviews in their profile if they want the reviews to appear in the reviews page they can choose eather to accept or reject the comment.
 
-> My magnificent Nuxt.js project
 
-## Build Setup
+## Features
+- The user can write a comment as an anonymous,or the user can write a comment as registered user, and rate the doctor.
+- The doctor can accept or reject the unwanted comment from the comments.
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Important Links
+-Github Source code:
+https://github.com/6degrees-doctor/Lara
+-Site:
+https://6degrees-doctor.github.io/Lara/
