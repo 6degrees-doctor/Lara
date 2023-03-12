@@ -197,6 +197,7 @@ background-repeat: no-repeat;
 position: relative;
 
 }
+.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
 
 /*** btn style ***/
 .btn-color{

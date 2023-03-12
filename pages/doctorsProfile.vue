@@ -133,6 +133,115 @@
                         
                 </div>
 
+          <!------------------ Reviews Section  ----------------------->
+          <div class="container px-5 py-4 my-5">
+                        <div class="row ">
+                         <div class="col">
+                        <div class="mb-3 ">
+                            <h2 class="fw-bold">Reviews</h2>
+
+                    <div class="card  shadow-sm bg-body-tertiary mb-3" >
+                    <div class="row g-0">
+                        <div class="col-md-2 ">
+                        <img src="~/assets/img/profilePic.jpg" class="img-fluid p-3" style="width: 10rem;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body ">
+                            <h5 class="card-title text-dark fw-bold">Sultan Mohammed </h5>
+                            <div class="my-3"><i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i></div>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <!-- Button trigger modal -->
+                        <div class="d-flex float-end py-4">
+                        <button type="submit" data-bs-toggle="modal" data-bs-target="#replyModal"
+                        class="btn btn-color px-4">Reply</button>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="replyModal" tabindex="-1" aria-labelledby="replyModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="replyModalLabel">Reply to Comment </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                <div class="mb-3">
+                                    <label for="reply-message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="reply-message" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-color">Submit</button>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!--------- Secound comment ---------->
+                        <div class="row ">
+                         <div class="col">
+                        <div class="mb-3 ">
+
+                    <div class="card shadow-sm bg-body-tertiary mb-3" >
+                    <div class="row g-0">
+                        <div class="col-md-2">
+                        <img src="~/assets/img/anonymous-profile.png" class="img-fluid p-3" style="width: 10rem;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body ">
+                            <h5 class="card-title text-dark fw-bold">Anonymous</h5>
+                            <div class="my-3"><i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i></div>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <!-- Button trigger modal -->
+                            <div class="d-flex float-end py-4">
+                        <button type="submit" data-bs-toggle="modal" data-bs-target="#replyModal"
+                        class="btn btn-color px-4">Reply</button>
+                        </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="replyModal" tabindex="-1" aria-labelledby="replyModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="replyModalLabel">Reply to Comment</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                            <div class="mb-3">
+                                <label for="reply-message" class="form-label">Message</label>
+                                <textarea class="form-control" id="reply-message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-color">Submit</button>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                        </div>
+                        
+                </div>               
                     
 
 

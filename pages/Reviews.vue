@@ -86,11 +86,8 @@
                     <div class="mb-3">
                         <label for="exampleInputPMessage" class="form-label"> <h5>Tell us more about your visit *</h5></label>
                         <textarea class="form-control" placeholder="Write your message ..."  aria-label="With textarea" required></textarea>
-                        <div class="invalid-feedback">
-                        Please enter a message in the textarea.
-                        </div>
                     </div>
-                
+            
                     <div class="d-flex gap-3 float-end py-4">
                       
                             <!-- Button trigger modal -->
@@ -135,7 +132,64 @@
                     </form>
                     </div>
 
+         <!------------------ Reviews Section  ----------------------->
+         <div class=" bg-color container px-5 py-4 my-5">
+                        <div class="row ">
+                         <div class="col">
+                        <div class="mb-3 ">
+                            <h2 class="fw-bold">Reviews</h2>
 
+                    <div class="card mb-3" >
+                    <div class="row g-0">
+                        <div class="col-md-2 ">
+                        <img src="~/assets/img/profilePic.jpg" class="img-fluid p-3" style="width: 10rem;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body ">
+                            <h5 class="card-title text-dark fw-bold">Sultan Mohammed </h5>
+                            <div class="my-3"><i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i></div>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!--------- Secound comment ---------->
+                        <div class="row ">
+                         <div class="col">
+                        <div class="mb-3 ">
+
+                    <div class="card mb-3" >
+                    <div class="row g-0">
+                        <div class="col-md-2">
+                        <img src="~/assets/img/anonymous-profile.png" class="img-fluid p-3" style="width: 10rem;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body ">
+                            <h5 class="card-title text-dark fw-bold">Anonymous</h5>
+                            <div class="my-3"><i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i>
+                            <i class="bi bi-star-fill star"></i></div>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                        </div>
+                        
+                </div>
 
               
     </div>
