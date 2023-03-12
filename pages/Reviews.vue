@@ -3,7 +3,7 @@
          <div class="container p-5">
             <div class="row p-3">
                 <div class="col-sm-2 col-lg-2">
-                    <img src="~/assets/img/card3.png" class="img-fluid" alt="">
+                    <img src="~/assets/img/card4.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-sm-4 col-lg-4">
                     <h2 class="fs-2 fs-sm-3 fw-bold" >Dr. Mona Eidgah  Reviews</h2> 
@@ -73,12 +73,9 @@
                             <div class="mb-3 ">
                         <h2 class="fw-bold fs-sm-3 my-2">Leave a review </h2>
                         <h2 class="fs-3 ">How likely are you to recommend Dr.Mona? </h2>
-                        <div class="my-3"><i class="bi bi-star-fill star"></i>
-                        <i class="bi bi-star-fill star"></i>
-                        <i class="bi bi-star-fill star"></i>
-                        <i class="bi bi-star-fill star"></i>
-                        <i class="bi bi-star-fill star"></i></div>
-
+                        <div class="rating">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                        </div>
 
                     <label for="exampleInputEmail1" class="form-label"> <h5>Title *</h5></label>
                     <input type="text" class="form-control" placeholder="Write your title ..."  id="exampleInputTitle" required >

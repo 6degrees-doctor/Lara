@@ -6,9 +6,7 @@
 
                   <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
                         <nuxt-link class="nav-link" target="_blank" to="/">Home</nuxt-link>
-                    </li>
                     <li class="nav-item">
                         <nuxt-link class="nav-link" to="#about">About</nuxt-link>
                     </li>

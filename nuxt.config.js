@@ -41,7 +41,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    // ...other modules
+    '@nuxtjs/strapi',
   ],
+  
+  strapi: {
+    url: process.env.STRAPI_URL || `http://localhost:1337/api`,
+    entities: ['Login'],
+  },
   /*
   ** Build configuration
   */

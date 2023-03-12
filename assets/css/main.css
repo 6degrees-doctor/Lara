@@ -180,7 +180,7 @@
 .centered {
   position: absolute;
   top: 50%;
-  left: 33%;
+  left: 35%;
   transform: translate(-50%, -50%);
 }
 .head1{
@@ -192,13 +192,12 @@ width: 100%;
 background-image: linear-gradient(0deg, #000000 -26.28%, rgba(54, 54, 54, 0) 100%),url("~/assets/img/pexels-los-muertos-crew-8460377 1.png" );
 background-size: cover;
 height:750px;
+width: 100%;
 background-position: center;
 background-repeat: no-repeat;
 position: relative;
 
 }
-.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
-
 /*** btn style ***/
 .btn-color{
   background-color:#E4D1BF;
@@ -216,9 +215,6 @@ transform: translate(0%,-70%);
 p{
   color:#555050
 }
-.star{
-  color: gold;
-}
 
 .text-color{
   color: #BAA592;
@@ -227,3 +223,20 @@ p{
 .card-color{
   background-color:#F6F5F0;
 }
+
+.rating {
+  unicode-bidi: bidi-override;
+  color: gold;
+  font-size: 30px;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.star{
+  color: gold;
+}
+

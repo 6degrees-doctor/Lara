@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/strapi": "^0.3.4",
     "bootstrap": "^5.2.3",
     "nuxt": "^2.0.0"
