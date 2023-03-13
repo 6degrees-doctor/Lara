@@ -35,9 +35,9 @@
           <div  class="col">
             <h5>Follow Us</h5>
             <div class="socialButton i">
-              <a><i class="bx bxl-instagram-alt"></i></a>
-              <a><i class="bx bxl-facebook"></i></a>
-              <a><i class="bx bxl-twitter"></i></a>
+              <a><i class="bi bi-instagram"></i></a>
+              <a><i class="bi bi-facebook"></i></a>
+              <a><i class="bi bi-twitter"></i></a>
             </div>
           </div>
         </div>

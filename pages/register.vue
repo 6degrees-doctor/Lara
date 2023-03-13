@@ -26,11 +26,12 @@
               <!-- Confirm Password input -->
               <div class="form-outline mb-4">
               <label class="form-label" for="form1Example23"><h5>Confirm Password</h5></label> 
-              <input type="password" id="form1Example23"  v-model="confirmPassword"
+              <input type="password" id="form1Example24"  v-model="confirmPassword"
               placeholder="Confirm Your Password" class="form-control form-control" />
             </div>
             <div class="d-grid">
-              <a class="btn btn-color btn-lg" href="#" role="button">Signup</a>
+              <a class="btn btn-color btn-lg" :disabled="email === '' || password === '' || username === ''"
+              type="submit" name="submit" role="button">Signup</a>
             </div>
                       
             <h5 class="fw-bold text-dark text-center my-5">Or Login With:</h5>
