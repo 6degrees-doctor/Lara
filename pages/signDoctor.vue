@@ -4,25 +4,28 @@
   <div class="container py-5 ">
     <div class="row d-flex align-items-center justify-content-center ">
       <div class="col-md-7 col-lg-5 col-xl-5 ">
-        <form>
+        <form @submit="loginUser">
           <h1 class="fw-bold text-center">Welcome Back !!</h1>
           <!-- Email input -->
           <div class="form-outline mb-4 my-4">
             <label class="form-label" for="form1Example13"><h5>Enter Email</h5></label>
-            <input type="email" id="form1Example13"  placeholder="Enter Your Password" class="form-control form-control" />
+            <input v-model="identifier" type="email" id="form1Example13" 
+             placeholder="Enter Your Email" class="form-control form-control" />
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-4">
             <label class="form-label" for="form1Example23"><h5>Enter Password</h5></label> 
-            <input type="password" id="form1Example23" placeholder="Enter Your Password" class="form-control form-control" />
+            <input v-model="password" type="password" id="form1Example23" 
+            placeholder="Enter Your Password" class="form-control form-control" />
           </div>
           
 
 
           <div class="d-grid">
                  <!-- Button trigger modal -->
-                    <a class="btn btn-color fw-bold btn-lg" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <a class="btn btn-color fw-bold btn-lg" href="#" 
+                    :disabled="identifier === '' || password === ''"  type="submit" data-bs-target="#exampleModal"
                     role="button">Login</a>
 
                 <!-- Modal -->
@@ -37,9 +40,9 @@
                        <p>Enter the 4-digits code sent to your e-mail</p>
                        <div class="col-md-5  gap-3 d-flex justify-content-evenly">
                         <input type="text" class="form-control px-3" id="inputCode">
-                        <input type="text" class="form-control px-3" id="inputCode">
-                        <input type="text" class="form-control px-3" id="inputCode">
-                        <input type="text" class="form-control px-3" id="inputCode">
+                        <input type="text" class="form-control px-3" id="inputCode2">
+                        <input type="text" class="form-control px-3" id="inputCode3">
+                        <input type="text" class="form-control px-3" id="inputCode4">
                     </div>
                     </div>
 
@@ -64,33 +67,6 @@
   
     </section>
 
-    <form @submit="loginUser">
-          <div>
-            <input
-              v-model="identifier"
-              class="p-3 my-5 border w-full"
-              type="email"
-              placeholder="email"
-            />
-          </div>
-          <div>
-            <input
-              v-model="password"
-              class="p-3 my-5 border w-full"
-              type="password"
-              placeholder="password"
-            />
-          </div>
-          <div>
-            <button
-              :disabled="identifier === '' || password === ''"
-              class="button--green"
-              type="submit"
-            >
-              Login
-            </button>
-          </div>
-        </form>
     
   </div>
 </template>

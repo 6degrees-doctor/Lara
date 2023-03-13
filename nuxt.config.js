@@ -47,7 +47,7 @@ export default {
   
   strapi: {
     url: process.env.STRAPI_URL || `http://localhost:1337/api`,
-    entities: ['Login'],
+    entities: ['articles'],
   },
   /*
   ** Build configuration
