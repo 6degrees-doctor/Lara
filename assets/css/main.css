@@ -189,8 +189,8 @@
 }
 .hero {
 background-image: linear-gradient(0deg, #000000 -26.28%, rgba(54, 54, 54, 0) 100%),url("~/assets/img/pexels-los-muertos-crew-8460377 1.png" );
-height: 100vh;
-background-size: 100% 110%;
+height: 90vh;
+background-size: 100% 100%;
 background-repeat: no-repeat;
 position: relative;
 }

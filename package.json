@@ -12,8 +12,9 @@
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^2.0.0",
-    "@nuxtjs/strapi": "^0.3.4",
+    "@nuxtjs/strapi": "^0.3.6",
     "bootstrap": "^5.2.3",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "star-rating.js": "^4.3.0"
   }
 }

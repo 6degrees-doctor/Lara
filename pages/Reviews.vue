@@ -1,13 +1,13 @@
 <template>
     <div>
          <div class="container p-5">
-            <div class="row p-3">
-                <div class="col-sm-2 col-lg-2">
+            <div class="row p-3 d-flex justify-content-center">
+                <div class="col-sm-2 col-lg-2 ">
                     <img src="~/assets/img/card4.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-sm-4 col-lg-4">
                     <h2 class="fs-2 fs-sm-3 fw-bold" >Dr. Mona Eidgah  Reviews</h2> 
-                  <p class="card-text text-color"><i class="bi bi-journal-medical text-dark "></i> Dr. Mona Eidgah is a Dentistry Practitioner in Riyadh</p>
+                  <p class="card-text"><i class="bi bi-journal-medical text-dark "></i> Dr. Mona Eidgah is a Dentistry Practitioner in Riyadh</p>
                 <div class="row align-items-start">
                     <div class="col">
                         <h2 class="fw-bold">4.5</h2>
@@ -26,7 +26,7 @@
             </div>   
 
             <!---------------  PROGRESS BAR ---------------->
-                 <div class="container w-50 my-2" >
+                 <div class="container w-50 my-2 " >
                 <div class="row ">
                 <!-- rate 1 -->
                     <div class="col-2 text-dark">5 Star</div>
@@ -188,6 +188,32 @@
                         
                 </div>
 
-              
+         
+                <!-- {{ this.comments.data[0].attributes.Title }}
+                {{ this.comments.data[0].attributes.Message }} -->
+                <!-- {{ this.comments.data.data[0] }} -->
+
     </div>
 </template>
+
+<!-- <script>
+
+export default {
+
+    data(){
+        return {
+            comments: [],
+        }
+    },
+    async mounted(){
+          try {
+            // fetch data from strapi
+            const comments = await fetch('http://localhost:1337/api/comments')
+            const newData = await comments.json();
+            this.comments = newData;
+          } catch (error) {
+            console.log(error)
+          }
+        }
+    }
+</script>  -->

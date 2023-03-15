@@ -4,6 +4,9 @@
   <div class="container py-5 ">
     <div class="row d-flex align-items-center justify-content-center ">
       <div class="col-md-7 col-lg-5 col-xl-5 ">
+        <div v-show="error !== ''" class="p-3 border">
+          <p>{{ error }}</p>
+        </div>
         <form @submit="loginUser">
           <h1 class="fw-bold text-center">Welcome Back !!</h1>
           <!-- Email input -->
