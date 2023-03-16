@@ -1,7 +1,7 @@
 <template>
     <div>
          <div class="container p-5">
-            <div class="row p-3">
+            <div class="row p-3 d-flex justify-content-center">
                 <div class="col-sm-2 col-lg-2">
                     <img src="~/assets/img/card3.png" class="img-fluid" alt="">
                 </div>

@@ -20,7 +20,7 @@
                         <nuxt-link class="nav-link" target="_blank" to="register">Register</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <nuxt-link class="nav-link" target="_blank" to="signin">Signin </nuxt-link>
+                        <nuxt-link class="nav-link" target="_blank" to="login">Signin </nuxt-link>
                     </li>
                 </ul>
                 </div>
@@ -32,7 +32,7 @@
                       <nuxt-link class="nav-link" target="_blank" to="reviews">Reviews</nuxt-link>
                       <nuxt-link class="nav-link" target="_blank" to="doctorsProfile">Doctor profile</nuxt-link>
                       <nuxt-link class="nav-link" target="_blank" to="register">Register</nuxt-link>
-                      <nuxt-link class="nav-link" target="_blank" to="signin">Sign as Doctor</nuxt-link>
+                      <nuxt-link class="nav-link" target="_blank" to="login">Login</nuxt-link>
                   </div>
                   </div>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">      
