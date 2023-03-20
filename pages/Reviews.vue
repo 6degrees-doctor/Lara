@@ -188,17 +188,17 @@
                         
                 </div>
 
-         
+    
                 {{ this.comments.data[0].attributes.Title }}
                 {{ this.comments.data[0].attributes.Message }} 
-                <!-- {{ this.comments.data.data[0] }} -->
+                <!-- {{ this.comments.data.data[0] }}-->
 
     </div>
 </template>
 
 
 
-<script>
+<script>    
 export default {
 
     data(){
@@ -217,4 +217,5 @@ export default {
           }
         }
     }
-</script>  
+
+</script> 

@@ -20,7 +20,7 @@
                         <nuxt-link class="nav-link" target="_blank" to="register">Register</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <nuxt-link class="nav-link" target="_blank" to="login">Signin </nuxt-link>
+                        <nuxt-link class="nav-link" target="_blank" to="login">Login </nuxt-link>
                     </li>
                 </ul>
                 </div>

@@ -43,20 +43,51 @@ export default {
   modules: [
     // ...other modules
     '@nuxtjs/strapi',
+    '@nuxtjs/axios',
+        '@nuxtjs/auth-next'
   ],
   
-  strapi: {
-    url: process.env.STRAPI_URL || `http://localhost:1337/api`,
-    entities: ['articles'],
+  axios: {
+    baseURL: process.env.STRAPI_URL || 'http://localhost:1337/api'
+  },
+
+  auth: {
+    // Options
+    strategies: {
+      local: {
+        token: {
+          property: 'jwt',
+        },
+        user: {
+          property: false,
+        },
+        endpoints: {
+          login: {
+            url: 'auth/local',
+            method: 'post',
+          },
+          user: {
+            url: 'users/me',
+            method: 'get',
+          },
+          logout: false,
+        },
+      },
+    },
   },
   /*
   ** Build configuration
   */
-  build: {
+ 
+    build: {
+  transpile: [
+    'defu'
+  ]
+},
     /*
     ** You can extend webpack config here
     */
     extend (config, ctx) {
     }
   }
-}
+

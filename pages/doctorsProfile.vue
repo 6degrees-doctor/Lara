@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-sm-4 col-lg-4">
                     <h2 class="fs-2 fs-sm-3 fw-bold" >Dr. Mona Eidgah  Reviews</h2> 
-                  <p class="card-text text-color"><i class="bi bi-journal-medical text-dark "></i> Dr. Mona Eidgah is a Dentistry Practitioner in Riyadh</p>
+                  <p class="card-text text-dark"><i class="bi bi-journal-medical"></i> Dr. Mona Eidgah is a Dentistry Practitioner in Riyadh</p>
 
                 <div class="row align-items-start">
                     <div class="col">
