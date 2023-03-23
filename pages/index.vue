@@ -6,16 +6,16 @@
     <div class="centered">
     <h1 class="head1 display-1 fw-bolder">Choose Your <br>
     Preferred Doctor</h1>
-    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <div class="d-grid gap-3 d-md-flex justify-content-md-start">
     <a class="btn btn-color text-center fw-bold btn-lg" href="register" role="button">Register</a>
-    <a class="btn btn-color fw-bold btn-lg" href="signDoctor" role="button">Sign as doctor</a>
+    <a class="btn btn-color fw-bold btn-lg" href="reviews" role="button">Write review</a>
     </div>
 
   </div> </div>
 </section>
    
   <!-- Serach box -->
-<div class="container position-absolute bottom-0 start-50 translate-middle-x rectangle-search py-4">
+  <div class="container position-absolute bottom-0 start-50 translate-middle-x rectangle-search py-4">
     <div class="row ">
   <div class="card ">
     <div class="card-body">
@@ -36,8 +36,6 @@
   </div>
     </div>
 </div>
-
-
  <!---- About us Section ------>
  <section class="bg-color" id="about">
 <div class=" container">

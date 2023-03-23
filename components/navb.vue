@@ -4,8 +4,8 @@
               <div class="container px-4 px-lg-5">
                   <a href="/"><img class="navbar-brand" src="~/assets/img/ProRate.png" width="18%" height="18%"></a>
 
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                  <div class="collapse navbar-collapse d-none d-md-block d-sm-block" id="navbarNav">
+                <ul class="navbar-nav fw-bold">
                         <nuxt-link class="nav-link" target="_blank" to="/">Home</nuxt-link>
                     <li class="nav-item">
                         <nuxt-link class="nav-link" to="#about">About</nuxt-link>
@@ -16,14 +16,19 @@
                    <li class="nav-item">
                         <nuxt-link class="nav-link" target="_blank" to="doctorsProfile">Doctor Profile</nuxt-link>
                     </li>
-                    <li class="nav-item">
-                        <nuxt-link class="nav-link" target="_blank" to="register">Register</nuxt-link>
-                    </li>
-                    <li class="nav-item">
-                        <nuxt-link class="nav-link" target="_blank" to="login">Login </nuxt-link>
-                    </li>
                 </ul>
                 </div>
+                <!-- Login & Signup buttons -->
+                <div class="d-grid gap-3 d-none d-sm-block ">
+                <button class="btn fw-bold btn-color">
+                    <nuxt-link class="nav-link" target="_blank" to="login">Login </nuxt-link>
+                </button>
+                <button class="btn fw-bold btn-color">
+                     <nuxt-link class="nav-link d-flex float-end" target="_blank" to="register">Register</nuxt-link>
+                </button>                    
+                </div>
+
+
                   <div id="myNav" class="overlay">
                   <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a>
                   <div class="overlay-content">

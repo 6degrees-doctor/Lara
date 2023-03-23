@@ -6,22 +6,14 @@
       <div class="col-md-7 col-lg-5 col-xl-5 ">
 
         <form  @submit.prevent="userLogin">
-          <div  v-if="err"
-            class="
-              p-4
-              mb-4
-              text-sm text-red-700
-              bg-red-100
-              rounded-lg
-              dark:bg-red-200 dark:text-red-800"
-            role="alert" >
-            {{ err }}
+          <div  v-if="err" class="text-danger"
+            role="alert" > {{ err }}
           </div>
           <h1 class="fw-bold text-center">Welcome Back !!</h1>
           <!-- Email input -->
-          <div class="form-outline mb-4 my-4">
+          <div class="form-outline mb-4 my-5">
             <label class="form-label" for="form1Example13"><h5>Enter Email</h5></label>
-            <input v-model="email" type="email" id="form1Example13" 
+            <input v-model="email" type="email" id="form1Example13"
              placeholder="Enter Your Email" class="form-control form-control" />
           </div>
 
@@ -58,25 +50,27 @@
   </div>
 </template>
 <script>
-    export default {
-      auth: 'guest',
-      data() {
-        return {
-          err: null,
-          email: '',
-          password: '',
-        }
-      },
-      methods: {
-        async userLogin() {
-          try {
-            await this.$auth.loginWith('local', {
-              data: { identifier: this.email, password: this.password },
-            })
-          } catch (e) {
-            if (e.response) this.err = e.response.data.error.message
-          }
-        },
-      },
+
+
+export default {
+  auth: 'guest',
+  data() {
+    return {
+      err: null,
+      email: '',
+      password: '',
     }
-    </script>
+  },
+  methods: {
+    async userLogin() {
+      try {
+        await this.$auth.loginWith('local', {
+          data: { identifier: this.email, password: this.password },
+        })
+      } catch (e) {
+        if (e.response) this.err = e.response.data.error.message
+      }
+    },
+  },
+}
+</script>
