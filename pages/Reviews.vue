@@ -72,7 +72,6 @@
                         <div class="row ">
                          <div class="col">
                             <div class="mb-3 ">
-
                         <h2 class="fw-bold fs-sm-3 my-2">Leave a review </h2>
                         <h2 class="fs-3 ">How likely are you to recommend Dr.Mona? </h2>
                         <div class="rating">
@@ -128,10 +127,38 @@
               </div>
               </div>
           </div>
-          </div> -->
+          </div>  -->
                   
               <button type="submit" class="btn btn-color">Submit</button>
               </div>
+              <h5 class="fs-5"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          class="text-reset">Leave review as anonymous?</a></h5>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title text-dark fw-lighter" id="exampleModalLabel">Write your comment as anonymous</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                 <div class="col-md-4">
+                  <label for="exampleInputEmail1" class="form-label"><h5>Title *</h5></label>
+              <input type="text" class="form-control" placeholder="Write your title ..." style="width:29em;" id="title" required >
+              </div>
+              <div class="mb-3 my-4">
+                  <label for="exampleInputPMessage" class="form-label"><h5>Tell us more about your visit *</h5></label>
+                  <textarea class="form-control" placeholder="Write your message ..."  aria-label="With textarea" 
+                  required></textarea>
+
+              </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="submit" class="btn  btn-color btn-md">Submit</button>
+              </div>
+              </div>
+          </div>
+          </div> 
 
                             </div>
                         </div>
@@ -218,10 +245,9 @@ export default {
         
 const requestBody = await this.$axios.post('/comments', {
  data: {
- title: "title",
- comment: "comment",
-
-}
+      title: this.title,
+      comment: this.comment,
+ }
 });
         //  //   const { data } = await this.$axios.post('/comments', {
         //     title: this.title,
@@ -235,55 +261,3 @@ const requestBody = await this.$axios.post('/comments', {
   },
 }
 </script>
-
-<!-- <script>
-
-export default {
-  data() {
-    return {
-      success:'',
-      err:'',
-      title: '',
-      comment: '',
-    };
-  },
-  methods: {
-    async submitComment() {
-      try {
-     await this.$axios.post('auth/local/register', {
-       title: this.title,
-       comment: this.comment,
-        });
-        console.log(data);
-        alert('Comment submitted!');
-        this.title = '';
-        this.comment = '';
-      } catch (error) {
-        console.error(error);
-        alert('Error submitting comment');
-      }
-    },
-  },
-};
-</script> -->
-
-
-
-
-//   methods: {
-//     async userRegister() {
-//       try {
-//         this.$axios.setToken(false)
-//         await this.$axios.post('auth/local/register', {
-//           username: this.username,
-//           email: this.email,
-//           password: this.password,
-//         })
-//         this.success = true
-//       } catch (e) {
-//         if (e.response) this.err = e.response.data.error.message
-//       }
-//     },
-//   },
-
-
